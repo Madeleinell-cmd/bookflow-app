@@ -1,8 +1,6 @@
-text
-   streamlit
-   groq
-   pypdf
-   python-docx
-   EbookLib
-   beautifulsoup4
-   lxml
+streamlit
+groq
+pypdf
+python-docx
+beautifulsoup4
+lxml
