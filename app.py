@@ -1,3 +1,8 @@
+import sys
+# Принудительно отключаем конфликтующие системные прокси-настройки платформы
+import os
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+os.environ["STREAMLIT_SERVER_PORT"] = "8501"
 import os
 import json
 import time
